@@ -23,7 +23,7 @@ rm /miniconda.sh
 conda activate base
 conda install --yes conda
 conda install --yes -c rdkit rdkit
-conda install --yes psycopg2 pandas
+conda install --yes psycopg2 pandas pytables
 conda install --yes -c conda-forge --no-chan-pri django django-debug-toolbar django-extensions django-filter django-guardian djangorestframework
 pip install djangorestframework-csv rest-framework-generic-relations django-pdb munch py pytest python-dateutil svgwrite tabulate==0.7.5 Pillow
 pip install matplotlib jupyter jupyterlab
